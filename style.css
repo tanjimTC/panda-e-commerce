@@ -1,10 +1,23 @@
 section{
     margin-bottom:50px;
 }
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Baloo Da 2', cursive;
+    position: relative; 
+}
 .carousel-bg{
     border-radius: 20px;
     background-color: #FEEAE9;
-    box-shadow: 5px 5px 10px 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.cetagories{
+    margin-top: 100px;
+}
+.cetagories img{
+    width: 100px;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -16,4 +29,28 @@ section{
     background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
     color: white;
     font-weight: 600px;
+}
+.cat1{
+    background-image: linear-gradient(to right,#FF9E34 ,#FFD019 );
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.cat2{
+    background-image: linear-gradient(to bottom,#FF5599,#FF2279);
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.cat3{
+    background-image: linear-gradient(90deg,#4288FF,#3F07F8);
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+.card{
+    padding: 10px 20px;
+    /* border: none; */
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px lightgray;
 }

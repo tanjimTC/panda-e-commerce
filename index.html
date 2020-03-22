@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Comerce</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -17,7 +20,7 @@
 <body>
     <section>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar-example">
                 <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,17 +33,20 @@
                             <input class="form-control mr-sm-2" type="search" placeholder="Search">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                         </form>
-                        <li class="nav-item active px-2">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-2" href="#">Shoes</a>
+                            <a class="nav-link px-2" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#watch">Watch</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#">Bagpack</a>
+                            <a class="nav-link" href="#bagpack">Bagpack</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
 
@@ -50,7 +56,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="home">
             <div id="carouselExampleControls" class="carousel slide carousel-bg" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -90,7 +96,8 @@
                             <div class="col-md-7">
                                 <h1>Beats Pro Headphone</h1>
                                 <p>Clear Highs and Deep Lows
-                                    With a solid interior sound platform, these headphones let you hear rich highs and the kind of bass that resonates deep in your chest.</p>
+                                    With a solid interior sound platform, these headphones let you hear rich highs and
+                                    the kind of bass that resonates deep in your chest.</p>
                                 <h1 class="price">$792</h1>
                                 <button class="btn button px-3 mt-2">Buy Now</button>
                             </div>
@@ -111,6 +118,152 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="container cetagories">
+            <h2 class="text-center mb-4">Categories</h1>
+                <div class="row text-white">
+                    <div class="col-md-4 ">
+                        <div class="cat1 d-flex justify-content-between align-items-center">
+                            <h1>Watch</h1>
+                            <img class="img-fluid" src="categories/watch.png" alt="Watch">
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="cat2 d-flex justify-content-between align-items-center">
+                            <h1>Bag</h1>
+                            <img class="img-fluid" src="categories/bag.png" alt="Bag">
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cat3 d-flex justify-content-between align-items-center">
+                            <h1>Shoes</h1>
+                            <img class="img-fluid" src="categories/shoes.png" alt="Shoes">
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="shoes">
+            <h2 class="text-center mb-4">Shoes</h1>
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <img src="shoes/shoe-1.png" class="card-img-top img-fluid p-2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Reebok Dart</h3>
+                            <p class="card-text">Very comfortable and awesome looking shoes.Build for you</p>
+                            <h4>$971</h4>
+                            <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="shoes/shoe-2.png" class="card-img-top img-fluid p-2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Reebok Pump</h3>
+                            <p class="card-text">Very comfortable and awesome looking shoes.Build for you</p>
+                            <h4>$791</h4>
+                            <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="shoes/shoe-3.png" class="card-img-top img-fluid p-2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Reebok All Tarain</h3>
+                            <p class="card-text">Very comfortable and awesome looking shoes.Build for you</p>
+                            <h4>$671</h4>
+                            <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="watch">
+            <h2 class="text-center mb-4">Watch</h1>
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <img src="watch/watch-01.png" class="card-img-top img-fluid p-2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Ison Bagpack</h3>
+                            <p class="card-text">Very comfortable and awesome looking shoes.Build for you</p>
+                            <h4>$971</h4>
+                            <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="watch/watch-01.png" class="card-img-top img-fluid p-2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Biaowang Bagpack</h3>
+                            <p class="card-text">Very comfortable and awesome looking shoes.Build for you</p>
+                            <h4>$791</h4>
+                            <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="watch/watch-03.png" class="card-img-top img-fluid p-2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Dxyizu WS54 Bagpack</h3>
+                            <p class="card-text">Very comfortable and awesome looking shoes.Build for you</p>
+                            <h4>$671</h4>
+                            <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-center" id="bagpack">
+            <h2 class="text-center mb-4">Bagpack</h1>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="bags/bag-1.png" class="card-img-top img-fluid p-2" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Ison Bagpack</h3>
+                        <h4>$971</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="bags/bag-2.png" class="card-img-top img-fluid p-2" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Biaowang Bagpack</h3>
+                        <h4>$971</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="bags/bag-3.png" class="card-img-top img-fluid p-2" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Dxyizu WS54 Bagpack</h3>
+                        <h4>$971</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn button my-3"> Buy now <i class='fas fa-arrow-right'></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -124,6 +277,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script>
+            $('body').scrollspy({ target: '#navbar-example',offset:150 })
+            
+        </script>
 </body>
 
 </html>
