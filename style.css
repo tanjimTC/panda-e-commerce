@@ -1,0 +1,17 @@
+section{
+    margin-bottom:50px;
+}
+.carousel-bg{
+    background-color: #FEEAE9;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color:#FF448E;
+}
+.button{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+    color: white;
+    font-weight: 600px;
+}
