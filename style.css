@@ -2,7 +2,9 @@ section{
     margin-bottom:50px;
 }
 .carousel-bg{
+    border-radius: 20px;
     background-color: #FEEAE9;
+    box-shadow: 5px 5px 10px 10px;
 }
 .carousel-item{
     padding: 20px 40px;
