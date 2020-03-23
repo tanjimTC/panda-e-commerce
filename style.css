@@ -54,3 +54,17 @@ body{
     border-radius: 15px;
     box-shadow: 5px 5px 10px lightgray;
 }
+
+#contact{
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.gray{
+    color: gray;
+}
+
+button:focus {
+    outline: none;
+}
